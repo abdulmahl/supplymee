@@ -3,16 +3,35 @@ import Link from "next/link";
 export default function Header() {
   return (
     <header>
-      <div className="flex gap-3">
-        <p>supplymee.io</p>
-        <div className="flex gap-2 mr-[98px]">
-          <Link href={"/our-way"}>our way</Link>
-          <Link href={"/our-services"}>our services</Link>
-          <Link href={"/our-clients"}>our clients</Link>
+      <div className="flex items-center justify-between md:gap-1">
+        <Link href={"/"}>
+          <p className="text-[21px] font-black lg:text-[44px]">supplymee.io</p>
+        </Link>
+        <div className="flex gap-2 mr-[60px] lg:mr-[450px] gap-5 text-[20px]">
+          <Link
+            href={"/our-way"}
+            className="hidden md:block md:hover:text-pink-600"
+          >
+            our way
+          </Link>
+          <Link
+            href={"/our-services"}
+            className="hidden md:block md:hover:text-pink-600"
+          >
+            our services
+          </Link>
+          <Link
+            href={"/our-clients"}
+            className="hidden md:block md:hover:text-pink-600"
+          >
+            our clients
+          </Link>
         </div>
-        <div className="bg-pink-400 text-white p-1 rounded-xl">
-          <Link href={"/become-client"}>become a client ➚</Link>
-        </div>
+        <Link href={"/become-client"}>
+          <div className="bg-pink-500 rounded-[50px] px-4 py-4 font-bold md:text-[13px] md:hover:bg-pink-600 text-white lg:text-[25px]">
+            become a client ➚
+          </div>
+        </Link>
       </div>
     </header>
   );
