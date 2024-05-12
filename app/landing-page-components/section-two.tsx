@@ -10,14 +10,14 @@ export default function SectionTwo() {
             <span className="bg-black w-20 h-[2px] mb-2"></span>
             <p>
               to make the lives <br />
-              of developers & <br /> procurement managers <br /> easier.
+              of developers & <br /> procurement managers <br /> easier
             </p>
           </div>
           <div className="flex flex-col">
             <span className="bg-black w-20 h-[2px] mb-2"></span>
             <p>
               to limit the delays <br />
-              that constantly <br /> hinder projects.{" "}
+              that constantly <br /> hinder projects{" "}
             </p>
           </div>
           <div className="flex flex-col">
@@ -25,7 +25,7 @@ export default function SectionTwo() {
             <p>
               to establish a <br />
               new standard of
-              <br /> quality to Africa.{" "}
+              <br /> quality to Africa{" "}
             </p>
           </div>
         </div>
