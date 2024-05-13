@@ -5,6 +5,12 @@ import SectionThree from "./landing-page-components/section-three";
 import SectionFour from "./landing-page-components/section-four";
 import SectionFive from "./landing-page-components/section-five";
 import SectionSix from "./landing-page-components/section-six";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Welcome to Supplymee.io",
+  description: "Create by Abdul",
+};
 
 export default function HomePage() {
   return (
