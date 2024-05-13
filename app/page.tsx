@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 
 export default function HomePage() {
   return (
-    <main className="p-5 m-auto md:flex flex-col md:p-10">
+    <main className="p-5 md:flex flex-col md:p-10">
       <div className="md:pb-10">
         <Header />
       </div>
