@@ -3,6 +3,7 @@ import Header from "./partials/header";
 import SectionOne from "./landing-page-components/section-one";
 import SectionTwo from "./landing-page-components/section-two";
 import SectionThree from "./landing-page-components/section-three";
+import SectionFour from "./landing-page-components/section-four";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <SectionOne />
       <SectionTwo />
       <SectionThree />
+      <SectionFour />
     </main>
   );
 }
