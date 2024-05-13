@@ -17,12 +17,12 @@ export default function SectionOne() {
           </div>
           <div className="flex gap-9 pt-[20px]">
             <Link href={"/learn-more"}>
-              <button className="w-[180px] border-[2px] p-3 rounded-[35px] md:hover:border-pink-500 md:hover:text-pink-600">
+              <button className="w-[150px] border-[2px] p-3 rounded-[35px] md:hover:border-pink-500 md:hover:text-pink-600">
                 learn more
               </button>
             </Link>
             <Link href={"/our-why"}>
-              <button className="w-[180px] border-[2px] p-3 rounded-[35px] md:hover:border-pink-500 md:hover:text-pink-600">
+              <button className="w-[150px] border-[2px] p-3 rounded-[35px] md:hover:border-pink-500 md:hover:text-pink-600">
                 our why
               </button>
             </Link>

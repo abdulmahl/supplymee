@@ -28,7 +28,7 @@ export default function Header() {
           </Link>
         </div>
         <Link href={"/become-client"}>
-          <div className="bg-pink-500 rounded-[50px] px-4 py-4 font-bold md:text-[13px] md:hover:bg-pink-600 text-white lg:text-[25px]">
+          <div className="bg-pink-500 text-[12px] rounded-[50px] px-4 py-4 font-bold md:text-[13px] md:hover:bg-pink-600 text-white lg:text-[25px]">
             become a client ➚
           </div>
         </Link>
