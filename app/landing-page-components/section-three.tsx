@@ -14,10 +14,10 @@ export default function SectionThree() {
         />
         <Image
           src={"/imageone.jpg"}
-          width={800}
+          width={600}
           height={760}
           alt="Side Image One for Tablet/Desktop View"
-          className="hidden md:block md:h-[460px] lg:h-[480px]"
+          className="hidden md:block md:h-[430px] lg:h-[500px]"
         />
       </div>
       <div>

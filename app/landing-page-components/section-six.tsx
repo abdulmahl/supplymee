@@ -4,19 +4,19 @@ export default function SectionSix() {
   return (
     <div className="bg-pink-500 text-white p-10 mt-[50px]">
       <div>
-        <p className="font-black pb-10 text-3xl">let's work together.</p>
+        <p className="font-black pb-10 text-3xl">let&apos;s work together.</p>
       </div>
       {/* Text for sm view... */}
       <div className="block md:hidden">
         <p>
-          let’s make your life easier, your projects faster and your products
-          more reliable.
+          let&apos;s make your life easier, your projects faster and your
+          products more reliable.
         </p>
       </div>
       {/* Text for md / lg views*/}
       <div className="hidden md:block">
-        <p>
-          let’s make your life easier, your projects <br /> faster and your
+        <p className="md:text-[20px] lg:text-[25px]">
+          let&apos;s make your life easier, your projects <br /> faster and your
           products more reliable.
         </p>
       </div>
