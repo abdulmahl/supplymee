@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function SectionOne() {
   return (
     <>
-      <div className="pt-20">
+      <div className="pt-[45px]">
         <div>
           <div>
             <p className="font-[25px] font-bold">WHY WE DO</p>
@@ -27,7 +27,7 @@ export default function SectionOne() {
               </button>
             </Link>
           </div>
-          <div className="flex flex-col gap-3 pt-[50px] md:flex-row md:gap-9">
+          <div className="flex flex-col gap-3 pt-[30px] md:flex-row md:gap-9">
             <div className="flex gap-1">
               <Image
                 src={"/energy.png"}
