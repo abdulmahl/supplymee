@@ -4,6 +4,7 @@ import SectionOne from "./landing-page-components/section-one";
 import SectionTwo from "./landing-page-components/section-two";
 import SectionThree from "./landing-page-components/section-three";
 import SectionFour from "./landing-page-components/section-four";
+import SectionFive from "./landing-page-components/section-five";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <SectionTwo />
       <SectionThree />
       <SectionFour />
+      <SectionFive />
     </main>
   );
 }

@@ -8,7 +8,7 @@ export default function SectionFour() {
         <div className="flex flex-col-reverse md:flex-row lg:gap-20">
           <div className="">
             <div>
-              <p className="text-pink-500 leading-none pb-10 text-3xl font-black lg:text-[65px]">
+              <p className="text-pink-500 leading-none pt-10 pb-5 text-3xl font-black lg:text-[65px]">
                 how we do what <br /> we do?
               </p>
             </div>
@@ -23,12 +23,13 @@ export default function SectionFour() {
             </p>
             {/* Tablet view text */}
             <p className="hidden md:block lg:hidden">
-              by partnering with the best manufacturers for each industry that
-              we serve, locally and internationally, we provide our customers
-              with the best quality products, at a far reduced rate. <br />{" "}
-              <br /> foremost in our minds is the sustainability and policies
-              our suppliers value. We partner only with those whose impact is
-              positive, on their employees and to the world as a whole.
+              by partnering with the best manufacturers for <br /> each industry
+              that we serve, locally and <br /> internationally, we provide our
+              customers with <br /> the best quality products, at a far reduced
+              rate. <br /> <br /> foremost in our minds is the sustainability
+              and <br /> policies our suppliers value. We partner only with
+              those whose impact is positive, on their employees and to the
+              world as a whole.
             </p>
             {/* Desktop view text */}
             <p className="hidden md:hidden lg:block lg:text-[25px]">
@@ -59,10 +60,10 @@ export default function SectionFour() {
             />
             <Image
               src={"/image-two.jpg"}
-              width={700}
+              width={800}
               height={760}
               alt="Side Image One for Tablet/Desktop View"
-              className="hidden md:block md:h-[370px] lg:ml-10 lg:h-[640px]"
+              className="hidden md:block md:h-[450px] lg:ml-10 lg:h-[640px]"
             />
           </div>
         </div>
