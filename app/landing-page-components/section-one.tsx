@@ -12,7 +12,7 @@ export default function SectionOne() {
           <div>
             <p className="text-pink-500 text-[36px] font-black md:text-[70px] leading-none">
               making your <br />
-              life easier if you're <br />a developer.
+              life easier if you're <br /> a developer.
             </p>
           </div>
           <div className="flex gap-9 pt-[20px]">
