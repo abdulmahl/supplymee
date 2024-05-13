@@ -18,7 +18,7 @@ export default function SectionFive() {
             width={3000}
             height={760}
             alt="Side Image One for Tablet/Desktop View"
-            className="hidden md:block md:h-[350px] lg:h-[360px]"
+            className="hidden md:block md:h-[300px] md:w-[2200px] lg:h-[360px] lg:w-[3000px]"
           />
         </div>
         <div>
