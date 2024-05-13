@@ -5,7 +5,7 @@ export default function Header() {
     <header>
       <div className="flex items-center justify-between md:gap-1">
         <Link href={"/"}>
-          <p className="text-[21px] font-black lg:text-[44px]">supplymee.io</p>
+          <p className="text-[18px] font-black lg:text-[44px]">supplymee.io</p>
         </Link>
         <div className="flex gap-2 mr-[60px] lg:mr-[450px] gap-5 text-[20px]">
           <Link
