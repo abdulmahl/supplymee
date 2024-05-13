@@ -23,7 +23,7 @@ export default function SectionFive() {
         </div>
         <div>
           <div>
-            <p className="text-pink-500 leading-none pt-10 md:pt-0 pb-5 text-3xl font-black lg:text-[65px]">
+            <p className="text-pink-500 leading-none md:pt-0 pb-5 text-3xl font-black lg:text-[65px]">
               what do we do?
             </p>
           </div>

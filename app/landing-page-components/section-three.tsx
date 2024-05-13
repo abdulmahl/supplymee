@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function SectionThree() {
   return (
-    <div className="flex flex-col pt-[70px] gap-10 md:flex-row lg:gap-20">
+    <div className="flex flex-col pt-[50px] gap-10 md:flex-row lg:gap-20">
       <div>
         <Image
           src={"/imageone.jpg"}

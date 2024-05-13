@@ -1,7 +1,7 @@
 export default function SectionTwo() {
   return (
     <>
-      <div className="bg-gray-100 mt-[100px] p-8">
+      <div className="bg-gray-100 mt-[70px] p-8">
         <div className="text-pink-500  text-[25px] pb-20 pt-10 font-black md:text-[35px] lg:text-[60px]">
           <p>why we do what we do.</p>
         </div>
