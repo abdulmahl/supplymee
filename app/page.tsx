@@ -5,11 +5,12 @@ import SectionTwo from "./landing-page-components/section-two";
 import SectionThree from "./landing-page-components/section-three";
 import SectionFour from "./landing-page-components/section-four";
 import SectionFive from "./landing-page-components/section-five";
+import SectionSix from "./landing-page-components/section-six";
 
 export default function Home() {
   return (
     <main className="p-5 md:flex flex-col md:p-10">
-      <div className="md:pb-20">
+      <div className="md:pb-10">
         <Header />
       </div>
       <SectionOne />
@@ -17,6 +18,7 @@ export default function Home() {
       <SectionThree />
       <SectionFour />
       <SectionFive />
+      <SectionSix />
     </main>
   );
 }

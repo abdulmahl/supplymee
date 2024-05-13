@@ -35,14 +35,17 @@ export default function SectionFour() {
             <p className="hidden md:hidden lg:block lg:text-[25px]">
               by partnering with the best manufacturers for <br /> each industry
               that we serve, locally and <br /> internationally, we provide our
-              customers with <br /> the best quality products, at a far reduced
-              rate. <br /> foremost in our minds is the sustainability and{" "}
-              <br />
+              <br /> customers with the best quality products, at a far reduced
+              rate.
+            </p>
+            <br />
+            <p className="hidden md:hidden lg:block lg:text-[25px]">
+              foremost in our minds is the sustainability and <br />
               policies our suppliers value. We partner <br /> only with those
               whose impact is positive, <br /> on their employees and to the
               world as a whole.
             </p>
-            <div className="pt-5">
+            <div className="pt-5 md:pt-0">
               <Link href={"/learn-more"}>
                 <button className="w-[180px] border-[2px] p-3 rounded-[35px] md:hover:border-pink-500 md:hover:text-pink-600">
                   learn more
@@ -63,7 +66,7 @@ export default function SectionFour() {
               width={800}
               height={760}
               alt="Side Image One for Tablet/Desktop View"
-              className="hidden md:block md:h-[450px] lg:ml-10 lg:h-[640px]"
+              className="hidden md:block md:h-[420px] lg:h-[640px]"
             />
           </div>
         </div>

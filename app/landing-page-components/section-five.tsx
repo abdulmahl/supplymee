@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function SectionFive() {
   return (
     <>
-      <div className="flex flex-col pt-[70px] gap-10 md:flex-row lg:gap-20">
+      <div className="flex flex-col pt-10 gap-10 md:flex-row lg:gap-20">
         <div>
           <Image
             src={"/image-three.jpg"}
@@ -15,7 +15,7 @@ export default function SectionFive() {
           />
           <Image
             src={"/image-three.jpg"}
-            width={2700}
+            width={3000}
             height={760}
             alt="Side Image One for Tablet/Desktop View"
             className="hidden md:block md:h-[350px] lg:h-[480px]"
@@ -23,11 +23,11 @@ export default function SectionFive() {
         </div>
         <div>
           <div>
-            <p className="text-pink-500 leading-none pb-5 text-3xl font-black">
+            <p className="text-pink-500 leading-none pt-10 md:pt-0 pb-5 text-3xl font-black lg:text-[65px]">
               what do we do?
             </p>
           </div>
-          <p>
+          <p className="lg:text-[25px]">
             we offer a complete solution of “after-construction” materials,
             providing a range of furniture, lighting, fabrics and flooring. This
             solution aims to make the process of procuring the most common
