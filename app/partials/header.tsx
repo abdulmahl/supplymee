@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Header() {
   return (
-    <header>
+    <header className="pt-2">
       <div className="flex items-center justify-between md:gap-1">
         <Link href={"/"}>
           <Image
