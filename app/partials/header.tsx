@@ -14,28 +14,8 @@ export default function Header() {
             className="w-[280px]"
           />
         </Link>
-        <div className="flex gap-2 mr-[60px] lg:mr-[450px] gap-5 text-[20px]">
-          <Link
-            href={"/our-way"}
-            className="hidden md:block md:hover:text-pink-600"
-          >
-            our way
-          </Link>
-          <Link
-            href={"/our-services"}
-            className="hidden md:block md:hover:text-pink-600"
-          >
-            our services
-          </Link>
-          <Link
-            href={"/our-clients"}
-            className="hidden md:block md:hover:text-pink-600"
-          >
-            our clients
-          </Link>
-        </div>
         <Link href={"/"}>
-          <div className="hidden md:flex items-center gap-1 bg-customPink p-3">
+          <div className="hidden lg:flex items-center gap-1 bg-customPink p-3">
             <p className="text-[13px]">give us call</p>
             <svg
               xmlns="http://www.w3.org/2000/svg"

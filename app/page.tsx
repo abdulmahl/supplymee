@@ -1,10 +1,10 @@
 import Header from "./partials/header";
-import SectionOne from "./landing-page-components/section-one";
-import SectionTwo from "./landing-page-components/section-two";
-import SectionThree from "./landing-page-components/section-three";
-import SectionFour from "./landing-page-components/section-four";
-import SectionFive from "./landing-page-components/section-five";
-import SectionSix from "./landing-page-components/section-six";
+import SectionOne from "./ui/landing-page-components/section-one";
+import SectionTwo from "./ui/landing-page-components/section-two";
+import SectionThree from "./ui/landing-page-components/section-three";
+import SectionFour from "./ui/landing-page-components/section-four";
+import SectionFive from "./ui/landing-page-components/section-five";
+import SectionSix from "./ui/landing-page-components/section-six";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
