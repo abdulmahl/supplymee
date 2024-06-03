@@ -4,16 +4,16 @@ import Image from "next/image";
 export default function SectionFour() {
   return (
     <>
-      <div className="pt-10">
+      <div className="pt-[100px] p-5">
         <div className="flex flex-col-reverse md:flex-row">
           <div className="">
             <div>
-              <p className="text-pink-500 leading-none pt-10 pb-5 text-3xl font-black md:pt-0 lg:text-[65px]">
+              <p className="text-customPink leading-none pt-10 pb-5 text-[36px] font-black md:pt-0 lg:text-[65px]">
                 how we do what <br /> we do?
               </p>
             </div>
             {/* Mobile view text */}
-            <p className="block md:hidden">
+            <p className="block text-[18px] md:hidden">
               by partnering with the best manufacturers for each industry that
               we serve, locally and internationally, we provide our customers
               with the best quality products, at a far reduced rate. <br />{" "}
@@ -45,13 +45,6 @@ export default function SectionFour() {
               whose impact is positive, <br /> on their employees and to the
               world as a whole.
             </p>
-            <div className="lg:pt-5">
-              <Link href={"/learn-more"}>
-                <button className="w-[180px] border-[2px] p-3 rounded-[35px] md:hover:border-pink-500 md:hover:text-pink-600">
-                  learn more
-                </button>
-              </Link>
-            </div>
           </div>
           <div>
             <Image

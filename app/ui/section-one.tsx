@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function SectionOne() {
   return (
     <>
-      <main className="py-16">
+      <main className="py-16 px-3">
         <div className="max-w-7xl relative">
           <h1 className="text-customPink text-left text-5xl font-bold md:text-6xl xl:text-7xl pb-10">
             making your life easier if you&apos;re a <br />

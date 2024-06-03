@@ -3,7 +3,7 @@ import React from "react";
 export default function SendMessageForm() {
   return (
     <>
-      <div className="border p-3 shadow-xl rounded-xl">
+      <div className="border p-5 w-[95%] m-auto shadow-xl rounded-xl">
         <form>
           <label htmlFor="firstname" className="flex flex-col pt-5">
             First name

@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Header() {
   return (
-    <header className="pt-2">
+    <header className="p-3">
       <div className="flex items-center justify-between md:gap-1">
         <Link href={"/"}>
           <Image
@@ -11,7 +11,7 @@ export default function Header() {
             width={100}
             height={100}
             alt="Logo-Image"
-            className="w-[280px]"
+            className="w-[250px]"
           />
         </Link>
         <Link href={"/"}>

@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 
 export default function HomePage() {
   return (
-    <main className="p-3 md:flex flex-col md:p-10">
+    <main className="md:flex flex-col md:p-10">
       <Header />
       <SectionOne />
       <SendMessageForm />
