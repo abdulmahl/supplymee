@@ -5,11 +5,10 @@ export default function SectionSix() {
     <>
       <div className="p-5">
         <div className="bg-customPink text-white p-5 mt-[50px]">
-          <div>
-            <p className="font-black pb-10 text-[48px] leading-none">
-              let&apos;s work together.
-            </p>
-          </div>
+          <p className="font-black pb-10 text-[48px] leading-none">
+            let&apos;s work together.
+          </p>
+
           {/* Text for sm view... */}
           <div className="block text-[20px] md:hidden">
             <p>
@@ -27,7 +26,7 @@ export default function SectionSix() {
           </div>
           <div className="pt-5">
             <Link href={"/learn-more"}>
-              <button className="text-[18px] w-[180px] border-[2px] p-3 rounded-[35px] md:hover:border-black md:hover:text-black">
+              <button className="text-[18px] w-[180px] border-[2px] p-3 rounded-[35px] md:hover:border-black md:hover:text-white">
                 let us help you.
               </button>
             </Link>

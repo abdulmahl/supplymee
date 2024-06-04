@@ -10,16 +10,18 @@ import type { Metadata } from "next";
 import SendMessageForm from "./forms/form";
 
 export const metadata: Metadata = {
-  title: "Welcome to Supplymee.io",
+  title: "Supplymee",
   description: "Create using Nextjs",
 };
 
 export default function HomePage() {
   return (
-    <main className="md:flex flex-col md:p-10">
+    <main>
       <Header />
-      <SectionOne />
-      <SendMessageForm />
+      <div className="md:flex md:py-16">
+        <SectionOne />
+        <SendMessageForm />
+      </div>
       <SectionTwo />
       <SectionThree />
       <SectionFour />

@@ -2,31 +2,31 @@ import Image from "next/image";
 
 export default function SectionThree() {
   return (
-    <div className="flex flex-col p-5 pt-[50px] gap-10 md:flex-row lg:gap-20">
+    <div className="flex flex-col p-5 pt-[50px] lg:pt-[200px] gap-10 md:pb-20 md:flex-row md:items-center lg:grid grid-cols-2 place-center lg:gap-0">
       <div>
         <Image
-          src={"/imageone.jpg"}
+          src={"/client-img.webp"}
           width={500}
           height={560}
           alt="Side Image One for Mobile View"
           className="block md:hidden"
         />
         <Image
-          src={"/imageone.jpg"}
-          width={600}
-          height={760}
+          src={"/client-img.webp"}
+          width={328}
+          height={241}
           alt="Side Image One for Tablet/Desktop View"
-          className="hidden md:block md:h-[430px] lg:h-[500px]"
+          className="hidden md:block lg:ml-10 lg:w-[625px] lg:h-[479px]"
         />
       </div>
       <div>
-        <p className="text-customPink text-[36px] leading-none font-black md:text-[35px] lg:text-[65px]">
+        <p className="text-customPink text-[36px] leading-none font-black md:text-[48px] lg:text-[65px]">
           who are our <br /> clients?
         </p>
 
         <div>
           {/* Mobile view port side text */}
-          <p className="pt-5 text-[18px] lg:text-[25px] md:hidden">
+          <p className="pt-5 text-[18px] md:hidden">
             the people who need us belong to <br />
             various industries, in a wide variety of job positions. But, all
             require better service, <br /> and a turn-key solution for sourcing{" "}
@@ -35,22 +35,23 @@ export default function SectionThree() {
           </p>
 
           {/* Tablet view port side text */}
-          <p className="hidden pt-5 lg:text-[25px] md:block lg:hidden">
-            the people who need us belong to various industries, in a wide{" "}
-            variety
-            <br /> of job positions. But, all require <br /> better service, and
-            a turn-key solution for sourcing products. Some include:{" "}
+          <p className="hidden md:text-[18px] pt-5 md:block lg:hidden">
+            the people who need us belong to <br />
+            various industries, in a wide variety of <br />
+            job positions. But, all require better <br />
+            service, and a turn-key solution for <br />
+            sourcing products. Some include:
           </p>
 
           {/* Desktop view port side text */}
-          <p className="hidden pt-5 lg:text-[25px] md:hidden lg:block">
-            the people who need us belong to various <br /> industries, in a
-            wide variety of job positions. But, <br />
-            all require better service, and a turn-key solution <br /> for
-            sourcing products. Some include:{" "}
+          <p className="hidden lg:pt-5 lg:text-[18px] md:hidden lg:block">
+            the people who need us belong to various industries, in a wide
+            variety of <br />
+            job positions. But, all require better service, and a turn-key
+            solution for sourcing products. Some include:{" "}
           </p>
         </div>
-        <div className="flex flex-col pt-3 gap-3 lg:grid grid-rows-2 grid-cols-2">
+        <div className="flex flex-col md:grid pt-3 gap-1 lg:grid grid-rows-2 grid-cols-2">
           <div className="flex gap-1">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -58,7 +59,7 @@ export default function SectionThree() {
               viewBox="0 0 24 24"
               stroke-width="1.7"
               stroke="white"
-              className="size-8 bg-customPink rounded-[50%] p-1"
+              className="size-6 bg-customPink rounded-[50%] p-1"
             >
               <path
                 stroke-linecap="round"
@@ -67,7 +68,7 @@ export default function SectionThree() {
               />
             </svg>
 
-            <p className="lg:text-[25px]">procurement managers</p>
+            <p className="lg:text-[18px]">procurement managers</p>
           </div>
           <div className="flex gap-1">
             <svg
@@ -76,7 +77,7 @@ export default function SectionThree() {
               viewBox="0 0 24 24"
               stroke-width="1.7"
               stroke="white"
-              className="size-8 bg-customPink rounded-[50%] p-1"
+              className="size-6 bg-customPink rounded-[50%] p-1"
             >
               <path
                 stroke-linecap="round"
@@ -85,7 +86,7 @@ export default function SectionThree() {
               />
             </svg>
 
-            <p className="lg:text-[25px]">hotel chains</p>
+            <p className="lg:text-[18px]">hotel chains</p>
           </div>
           <div className="flex gap-1">
             <svg
@@ -94,7 +95,7 @@ export default function SectionThree() {
               viewBox="0 0 24 24"
               stroke-width="1.7"
               stroke="white"
-              className="size-8 bg-customPink rounded-[50%] p-1"
+              className="size-6 bg-customPink rounded-[50%] p-1"
             >
               <path
                 stroke-linecap="round"
@@ -103,7 +104,7 @@ export default function SectionThree() {
               />
             </svg>
 
-            <p className="lg:text-[25px]">property developers</p>
+            <p className="lg:text-[18px]">property developers</p>
           </div>
           <div className="flex gap-1">
             <svg
@@ -112,7 +113,7 @@ export default function SectionThree() {
               viewBox="0 0 24 24"
               stroke-width="1.7"
               stroke="white"
-              className="size-8 bg-customPink rounded-[50%] p-1"
+              className="size-6 bg-customPink rounded-[50%] p-1"
             >
               <path
                 stroke-linecap="round"
@@ -120,7 +121,7 @@ export default function SectionThree() {
                 d="M2.25 21h19.5m-18-18v18m10.5-18v18m6-13.5V21M6.75 6.75h.75m-.75 3h.75m-.75 3h.75m3-6h.75m-.75 3h.75m-.75 3h.75M6.75 21v-3.375c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21M3 3h12m-.75 4.5H21m-3.75 3.75h.008v.008h-.008v-.008Zm0 3h.008v.008h-.008v-.008Zm0 3h.008v.008h-.008v-.008Z"
               />
             </svg>
-            <p className="lg:text-[25px]">facilities managers</p>
+            <p className="lg:text-[18px]">facilities managers</p>
           </div>
         </div>
       </div>

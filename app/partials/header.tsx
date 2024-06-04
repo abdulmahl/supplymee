@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Header() {
   return (
-    <header className="p-3">
+    <header className="px-3 pt-4 lg:pt-10">
       <div className="flex items-center justify-between md:gap-1">
         <Link href={"/"}>
           <Image
@@ -11,12 +11,12 @@ export default function Header() {
             width={100}
             height={100}
             alt="Logo-Image"
-            className="w-[250px]"
+            className="w-auto h-12 lg:h-16 lg:ml-10"
           />
         </Link>
         <Link href={"/"}>
-          <div className="hidden lg:flex items-center gap-1 bg-customPink p-3">
-            <p className="text-[13px]">give us call</p>
+          <div className="hidden lg:flex border items-center lg:hover:bg-white lg:hover:text-customPink hover:border-customPink gap-1 lg:px-9 bg-customPink p-3 text-white rounded-[70px] lg:mr-10">
+            <p className="text-[20px]">give us a call</p>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"

@@ -1,17 +1,17 @@
 export default function SectionTwo() {
   return (
     <>
-      <div className="bg-gray-100 w-full mt-[80px] p-5">
-        <p className="text-customPink text-[35px] pb-10 font-bold md:text-[35px] lg:text-[60px]">
+      <div className="bg-gray-100 w-full mt-[80px] p-20">
+        <p className="text-customPink text-[35px] pb-10 font-bold md:text-[35px] lg:text-[60px] lg:ml-40">
           why we do what we do
         </p>
-        <div className="flex flex-col gap-5 md:flex-row md:gap-12 lg:text-[30px]">
-          <div className="flex flex-col">
+        <div className="flex flex-col gap-5 md:flex-row justify-center md:gap-10 lg:text-[30px]">
+          <div className="flex flex-col md:items-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
-              stroke-width="2.5"
+              stroke-width="2"
               stroke="white"
               className="size-[150px] bg-gray-200 rounded-[50%] p-5 mb-3"
             >
@@ -21,13 +21,13 @@ export default function SectionTwo() {
                 d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
               />
             </svg>
-            <p className="text-[20px]">
+            <p className="text-[20px] md:pl-10 ">
               to limit delays that hinder <br />
               projects
             </p>
           </div>
 
-          <div className="flex flex-col">
+          <div className="flex flex-col md:items-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -43,12 +43,17 @@ export default function SectionTwo() {
               />
             </svg>
 
-            <p className="text-[20px]">
+            <p className="text-[20px] block md:hidden">
               to make the lives of developers & procurement managers easier
+            </p>
+            <p className="text-[20px] md:pl-10 hidden md:block">
+              to make the lives of developers & <br />
+              procurement <br />
+              managers easier
             </p>
           </div>
 
-          <div className="flex flex-col">
+          <div className="flex flex-col md:items-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -64,7 +69,7 @@ export default function SectionTwo() {
               />
             </svg>
 
-            <p className="text-[20px]">
+            <p className="text-[20px] md:pl-10">
               to establish a new standard of <br />
               quality to Africa
             </p>
