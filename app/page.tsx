@@ -10,7 +10,7 @@ import type { Metadata } from "next";
 import SendMessageForm from "./forms/form";
 
 export const metadata: Metadata = {
-  title: "Supplymee",
+  title: "Supplymee | Home",
   description: "Create using Nextjs",
 };
 

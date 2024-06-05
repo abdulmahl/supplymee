@@ -1,10 +1,9 @@
 import Image from "next/image";
-import Link from "next/link";
 
 export default function SectionFive() {
   return (
     <>
-      <div className="flex flex-col p-5 pt-10 gap-10 md:flex-row md:items-center lg:gap-20 lg:justify-center lg:pb-40">
+      <div className="flex flex-col p-5 mt-[130px] gap-10 md:flex-row md:items-center lg:gap-20 lg:justify-center lg:pb-40">
         <div>
           <Image
             src={"/client-img2.webp"}
