@@ -25,7 +25,7 @@ export default function SectionSix() {
             </p>
           </div>
           <div className="pt-5">
-            <Link href={"/learn-more"}>
+            <Link href={"/forms"}>
               <button className="text-[18px] w-[180px] border-[2px] p-3 rounded-[35px] md:hover:border-black md:hover:text-white">
                 let us help you.
               </button>
