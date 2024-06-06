@@ -36,7 +36,7 @@ export default function ThankYouPage() {
       </h1>
       <h1 className="hidden md:hidden lg:block lg:min-h-[70dvh] lg:pt-[190px] text-customPink font-bold text-xl text-center lg:text-[46px] leading-none">
         thank you for your message, <br />
-        we'll be in touch soon!
+        we&apos;ll be in touch soon!
       </h1>
       <Footer />
     </>
