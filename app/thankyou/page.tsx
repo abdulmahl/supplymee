@@ -32,11 +32,11 @@ export default function ThankYouPage() {
         </div>
       </Link>
       <h1 className="text-xl text-center min-h-[68dvh] pt-[170px] p-3 text-customPink font-bold min-h-4 md:text-[46px] md:pt-[300px] md:min-h-[82dvh] md:text-balance md:leading-none lg:hidden">
-        thank you for your message&lsquo; we will be in touch soon&apos;
+        thank you for your message we will be in touch soon.
       </h1>
       <h1 className="hidden md:hidden lg:block lg:min-h-[70dvh] lg:pt-[190px] text-customPink font-bold text-xl text-center lg:text-[46px] leading-none">
-        thank you for your message&lsquo; <br />
-        we will be in touch soon&apos;
+        thank you for your message <br />
+        we will be in touch soon.
       </h1>
       <Footer />
     </>
