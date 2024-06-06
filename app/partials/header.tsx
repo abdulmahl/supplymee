@@ -2,6 +2,8 @@ import Link from "next/link";
 import Image from "next/image";
 
 export default function Header() {
+  const phoneUrl = "+27 66 101 8392";
+
   return (
     <header className="px-3 pt-4 lg:pt-10">
       <div className="flex items-center justify-between md:gap-1">
@@ -14,7 +16,7 @@ export default function Header() {
             className="w-auto h-12 lg:h-16 lg:ml-10"
           />
         </Link>
-        <Link href={"/"}>
+        <Link target="_blank" href={`tel:${phoneUrl}`}>
           <div className="hidden lg:flex border items-center lg:hover:bg-white lg:hover:text-customPink hover:border-customPink gap-1 lg:px-9 bg-customPink p-3 text-white rounded-[70px] lg:mr-10">
             <p className="text-[20px]">give us a call</p>
             <svg
