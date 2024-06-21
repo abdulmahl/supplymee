@@ -10,8 +10,6 @@ export const metadata: Metadata = {
 export default function ThankYouPage() {
   return (
     <>
-      <Header />
-
       <Link href={"/"}>
         <div className="flex flex-col w-[70px] items-center relative lg:left-10 md:opacity-45 md:hover:opacity-100">
           <svg
@@ -38,7 +36,6 @@ export default function ThankYouPage() {
         thank you for your message <br />
         we will be in touch soon.
       </h1>
-      <Footer />
     </>
   );
 }
