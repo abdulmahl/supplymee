@@ -32,7 +32,7 @@ export default function SendMessageForm() {
   };
 
   return (
-    <div className="border p-5 w-[95%] m-auto md:w-[35%] md:mr-5 lg:mr-40 shadow-xl rounded-xl">
+    <div className="border  p-5 w-[95%] mt-20 mb-10 m-auto md:w-[65%] shadow-xl rounded-xl">
       <form onSubmit={handleSubmit}>
         <div className="lg:flex items-center lg:gap-5">
           <label htmlFor="firstname" className="flex flex-col pt-3">
